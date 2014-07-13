@@ -18,7 +18,10 @@
 	<script type="text/javascript" src="assets/plugins/lt-ie9/excanvas.compiled.js"></script>
     <![endif]--> 
 
-    <link href="/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- <link href="/font-awesome/css/font-awesome.min.css" rel="stylesheet"> -->
 
     <!-- GOOGLE FONTS -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800|Dosis:300,400" rel="stylesheet" type="text/css" />
@@ -178,7 +181,7 @@
 
 <header id="header">
   
-  <nav class="navbar navbar-inverse" role="navigation"><!-- add "wihite" class for white nav bar -->
+  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation"><!-- add "wihite" class for white nav bar -->
     <div class="container">
       
       <!-- Mobile Menu Button -->
@@ -198,7 +201,6 @@
 	      Example:
 	      <span class="white">ISIS</span><span class="styleColor">ONE</span>
 	      -->
-	  <span class="">Esyasoft</span>
 	</a>
       </div>
       
@@ -210,8 +212,15 @@
 	
 	<ul class="nav navbar-nav navbar-right">
 	  <li><a href="#home" class="scrollTo">Home</a></li>
-	  <li><a href="#about" class="scrollTo">About</a></li>
-	  <li><a href="#work" class="scrollTo">Work</a></li>
+	  <li class="dropdown">
+	    <a href="#" data-toggle="dropdown" class="dropdown-toggle">Company <b class="caret"></b></a>
+	    <ul class="dropdown-menu custom-navbar-menu">
+	      <li><a href="#about" class="scrollTo">About</a></li>
+	      <li><a href="#team" class="scrollTo">Team</a></li>
+	      <li><a href="#value-box" class="scrollTo">Values</a></li>
+	    </ul>
+	  </li>
+	  <li><a href="#work" class="scrollTo">Solutions</a></li>
 	  <li><a href="#services" class="scrollTo">Services</a></li>
 	  <li><a href="#contact" class="scrollTo">Contact</a></li>
 	</ul>
@@ -233,12 +242,14 @@
     </header>
     <div class="divider"></div>
     
-    <article class="text-center big-paragraph">
+    <article class="text-center">
       <p>Esyasoft technologies is a high end product development and core systems development company catering to energy sector. Esyasoft has been founded by the team behind Effia Technologies. Esyasoft’s innovative products help Utilities to improve their operational efficiencies and . Some of our core systems developed help electrical utilities to better manage workflows and increase productivity. With unmatched analytical capabilities, Esyasoft products give clients unique insights which help in decisions.</p>
     </article>
     
     <div>
       
+<div id="team">
+
 
 <div class="me-picture text-center col-md-4">
   
@@ -308,59 +319,62 @@
   
 </div>
 
-  
+
+
+</div>  
 
 
     </div>
-    
-
 
     <article>
 
       <div class="row text-left">
-	<div class="col-md-6">
-	  <h3>Customer Focus</h3>
+	<div id='value-box' class="col-md-6">
+ 	   <h3><i class="fa fa-bullseye"></i> Customer Focus</h3> 
 	  <p>Customer focus is a way of life for us and we believe it will lead to the overall success of our business. Our customer focus includes maintaining an effective customer relations and service program.</p>
 	  <br>
 	</div>
-	<div class="col-md-6">
-	  <h3>Excellence</h3>
+	<div  class="col-md-6">
+ 	   <h3><i class="fa fa-thumbs-up"></i> Excellence</h3> 
 	  <p>This involves a high focus, a disciplined approach which shows through in our actions. We strive to go beyond set standards and constantly improve upon our own effort.</p>
 	  <br>
 	</div>
-	<div class="col-md-6">
-	  <h3>Accountability</h3>
+	<div  class="col-md-6">
+ 	   <h3><i class="fa fa-certificate"></i> Accountability</h3> 
 	  <p>Accountability is the guiding principle that defines how we make commitments to one another, how we measure and report our progress how we interact when things go wrong, and how much ownership we take to get things done.</p>
 	  <br>
 	</div>
-	<div class="col-md-6">
-	  <h3>Passion to win</h3>
+	<div  class="col-md-6">
+ 	   <h3><i class="fa fa-rocket"></i> Passion to win</h3> 
 	  <p>We believe in change as an opportunity and not being satisfied with the status quo. A can do attitude enables us to be passionate about accomplishing tasks within timelines and exceeding expectations and thereby winning in everyday life.</p>
 	  <br>
 	</div>
-	<div class="col-md-6">
-	  <h3>Teamwork</h3>
+	<div  class="col-md-6">
+ 	   <h3><i class="fa fa-group"></i> Teamwork</h3> 
 	  <p>Teamwork means accomplishing things better and faster leading to optimum usage of resources and increasing organisation efficiency and effectiveness.</p>
 	  <br>
 	</div>
-	<div class="col-md-6">
-	  <h3>Innovation</h3>
+	<div  class="col-md-6">
+ 	   <h3><i class="fa fa-cogs"></i> Innovation</h3> 
 	  <p>Innovation comes from a constant learning culture and finding new ways of accomplishing the objectives, be it personal, organisational or technological.</p>
 	  <br>
 	</div>
-	<div class="col-md-6">
-	  <h3>Respect for people</h3>
+	<div  class="col-md-6">
+ 	   <h3><i class="fa fa-child"></i> Respect for people</h3> 
 	  <p>We believe in giving respect and consideration for everyone we interact and work with.</p>
 	  <br>
 	</div>
-	<div class="col-md-6">
-	  <h3>Integrity</h3>
+	<div  class="col-md-6">
+ 	   <h3><i class="fa fa-code-fork"></i> Integrity</h3> 
 	  <p>Integrity means adhering to a code of ethics and doing the right thing by sticking to that code. We are very clear the personal integrity is a part of business integrity, and doing the right thing in business and professional life is immensely powerful for the individual and our company.</p>
 	  <br>
 	</div>
       </div>
+      
     </article>
     
+    </div>
+
   </div>
 
 </section>
@@ -368,15 +382,16 @@
 
 
 <section id="work" class="alternate arrow-down">
+
   <div class="container">
 
     <header class="text-center">
-      <h1>OUR WORK</h1>
+      <h1>Solutions</h1>
     </header>
     
     <div class="divider"><!-- lines divider --></div>
     
-    <article><p>Bacon ipsum dolor sit amet meatball shank pork chop capicola fatback pork loin sirloin flank. Andouille tongue corned beef rump pork loin shank meatball capicola turducken venison shankle kevin pancetta tri-tip boudin. Bacon ipsum dolor sit amet meatball shank pork chop capicola fatback pork loin sirloin flank.</p></article>
+    <article><p>Esyasof provides varied solutions int he field of energy optimisation be it onthe supplier side or the consumer end. Aspire to optimise the use of energy and resources.</p></article>
     
     <div id="portfolio" class="text-center">
       
@@ -389,7 +404,7 @@
 	    <a class="popup-project" href="#work_1">
 	      <img src="assets/images/preview/content/portfolio/p1.jpg" class="img-responsive" alt="img" />
 	      <div class="caption">
-		<i class="rounded fa fa-camera"></i>
+		<i class="rounded fa fa-database"></i>
 		<h3>Meter Data Acquisition</h3>
 	      </div>
 	    </a>
@@ -400,7 +415,7 @@
 	    <a class="popup-project" href="#work_2">
 	      <img src="assets/images/preview/content/portfolio/p1.jpg" class="img-responsive" alt="img" />
 	      <div class="caption">
-		<i class="rounded fa fa-camera"></i>
+		<i class="rounded fa fa-bar-chart-o"></i>
 		<h3>Smart Grid Analytics Platform</h3>
 	      </div>
 	    </a>
@@ -411,7 +426,7 @@
 	    <a class="popup-project" href="#work_3">
 	      <img src="assets/images/preview/content/portfolio/p1.jpg" class="img-responsive" alt="img" />
 	      <div class="caption">
-		<i class="rounded fa fa-camera"></i>
+		<i class="rounded fa fa-book"></i>
 		<h3>Energy Audit Software</h3>
 	      </div>
 	    </a>
@@ -422,7 +437,7 @@
 	    <a class="popup-project" href="#work_4">
 	      <img src="assets/images/preview/content/portfolio/p1.jpg" class="img-responsive" alt="img" />
 	      <div class="caption">
-		<i class="rounded fa fa-camera"></i>
+		<i class="rounded fa fa-briefcase"></i>
 		<h3>Demand Response Management</h3>
 	      </div>
 	    </a>
@@ -430,6 +445,7 @@
 	  
 
 	</ul>
+      
       </div>
       
     </div>
@@ -452,12 +468,12 @@
 	  <img src="assets/images/preview/content/portfolio/p1.jpg" class="img-responsive" alt="img" />
 	</div>
 	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-8">
-	  <b>a. Meter Data Acquisition (MDA)/ Meter Head end</b><p>Meter Data Acquisition (MDA) is the key component in Advanced Metering Infrastructure (AMI) and is ideal for Grid Metering as well as LT Consumer Metering and Demand Side Management. It provides utilities with a business-critical solution for storing, validating, aggregating and processing large volumes of data, in preparation for billing, settlements and other reporting and reconciliation obligations. It also allows utility to easily configure the data collection process, VEE process, alarm/alert/event/notifications generation, billing determinants.</p><br>Key Components:<ul><li>Smart Meter Interface Gateway</li><li>Data migration tool and templates</li><li>Configurable validation, editing, and estimation (VEE) setup</li><li>Billing Determinants</li><li>Event/Notification/SMS Processor</li></ul>
+	  <article><b>Meter Data Acquisition (MDA)/ Meter Head end</b><p>Meter Data Acquisition (MDA) is the key component in Advanced Metering Infrastructure (AMI) and is ideal for Grid Metering as well as LT Consumer Metering and Demand Side Management. It provides utilities with a business-critical solution for storing, validating, aggregating and processing large volumes of data, in preparation for billing, settlements and other reporting and reconciliation obligations. It also allows utility to easily configure the data collection process, VEE process, alarm/alert/event/notifications generation, billing determinants.</p><br>Key Components:<ul><li>Smart Meter Interface Gateway</li><li>Data migration tool and templates</li><li>Configurable validation, editing, and estimation (VEE) setup</li><li>Billing Determinants</li><li>Event/Notification/SMS Processor</li></ul></article>
 	</div>
       </div>
       <br>
       <div class="row">
-	<b>b. Meter Data Acquisition System and Management (MDAS/MDM)</b><p>Meter data management (MDM) refers to a key component in the Smart Grid infrastructure, which is in the process of being evolved and adopted by utility companies. An MDM solution serves as the connective tissue that binds all the disparate data collection points, interfaces, and systems together for the Smart Grid in order to create usable and accurate data that can be used for revenue and system planning purposes.</p><p>Meter data management implementations are frequently challenged by high implementation cost, Integration complexity, timelines, and infrastructure requirements.</p><p>Our MDM Solution is a highly scalable enterprise application which offers a simplified management environment, reliable processes, interfaces, Analytics & MIS Reports, Integration with associated utility applications and significantly reduces the likelihood of errors when utilizing meter data.</p><br>Our MDM Solution Offers:<ul><li>Seamless integration</li><li>Ease of usage</li><li>Ability to scale</li><li>Superior Performance</li></ul><br>Key Components:<ul><li>Fast-track implementation methodology</li><li>Bundled documentation, including configuration and training manuals</li><li>Integration with utility applications i.e. GIS, SCADA, Asset Management, Billing, etc</li><li>User Friendly HMI (Human Machine Interface)</li><li>Analytics & MIS Reports</li></ul>
+	<b>Meter Data Acquisition System and Management (MDAS/MDM)</b><p>Meter data management (MDM) refers to a key component in the Smart Grid infrastructure, which is in the process of being evolved and adopted by utility companies. An MDM solution serves as the connective tissue that binds all the disparate data collection points, interfaces, and systems together for the Smart Grid in order to create usable and accurate data that can be used for revenue and system planning purposes.</p><p>Meter data management implementations are frequently challenged by high implementation cost, Integration complexity, timelines, and infrastructure requirements.</p><p>Our MDM Solution is a highly scalable enterprise application which offers a simplified management environment, reliable processes, interfaces, Analytics & MIS Reports, Integration with associated utility applications and significantly reduces the likelihood of errors when utilizing meter data.</p><br>Our MDM Solution Offers:<ul><li>Seamless integration</li><li>Ease of usage</li><li>Ability to scale</li><li>Superior Performance</li></ul><br>Key Components:<ul><li>Fast-track implementation methodology</li><li>Bundled documentation, including configuration and training manuals</li><li>Integration with utility applications i.e. GIS, SCADA, Asset Management, Billing, etc</li><li>User Friendly HMI (Human Machine Interface)</li><li>Analytics & MIS Reports</li></ul>
       </div>
     </div>
     
@@ -479,7 +495,7 @@
 	  <img src="assets/images/preview/content/portfolio/p1.jpg" class="img-responsive" alt="img" />
 	</div>
 	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-8">
-	  <p>Utilities today are inundated with large amounts of data with the introduction of smart meters and are keen to exploit the potential benefits. However, managing and analysing such large sets of data is a challenge.</p><p>Esyasoft’s Intelligent Analytical Platform has been developed with an unmatched understanding of the issues faced by utilities and a back-end team of seasoned analytics professionals. Armed with the experience of developing and deploying large scale IT projects Esyasoft’s Esyasoft’s Intelligent Analytical Platform is an automatic choice for Smart Grid analytical solutions owing to its robustness in handling huge amounts of data and carrying out real-time analysis of this data to provide information that help utilities to</p><ul><li>Predict equipment failure and outages</li><li>Forecast financial trends</li><li>Improve customer relationships</li><li>Optimize operational efficiencies</li><li>Reduce transmission losses</li><li>Drive energy efficiency and dynamic pricing programs</li></ul>
+	  <article><p>Utilities today are inundated with large amounts of data with the introduction of smart meters and are keen to exploit the potential benefits. However, managing and analysing such large sets of data is a challenge.</p><p>Esyasoft’s Intelligent Analytical Platform has been developed with an unmatched understanding of the issues faced by utilities and a back-end team of seasoned analytics professionals. Armed with the experience of developing and deploying large scale IT projects Esyasoft’s Esyasoft’s Intelligent Analytical Platform is an automatic choice for Smart Grid analytical solutions owing to its robustness in handling huge amounts of data and carrying out real-time analysis of this data to provide information that help utilities to</p><ul><li>Predict equipment failure and outages</li><li>Forecast financial trends</li><li>Improve customer relationships</li><li>Optimize operational efficiencies</li><li>Reduce transmission losses</li><li>Drive energy efficiency and dynamic pricing programs</li></ul></article>
 	</div>
       </div>
       <br>
@@ -506,7 +522,7 @@
 	  <img src="assets/images/preview/content/portfolio/p1.jpg" class="img-responsive" alt="img" />
 	</div>
 	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-8">
-	  <p>Esyasoft’s automated energy audit software (chubacabra) provides clients with unmatched reporting and benchmarking capability leading to targeted energy efficiency gains and lower costs towards energy.</p><p>Esyasoft’s automated energy audit software enables faster audit requiring minimum or available information to be captured. Analysis is faster and reduces time with option for customisation.</p><p>With a database of existing buildings, benchmarking and audit analysis turnaround time is significantly reduced leading to cost savings for carrying out energy audits.</p><p>Esyasoft technical experts provide with various cost saving and energy investment options leading to quicker decision making process and targeted reduction in carbon footprint and saving in energy bill.</p>
+	  <article><p>Esyasoft’s automated energy audit software (chubacabra) provides clients with unmatched reporting and benchmarking capability leading to targeted energy efficiency gains and lower costs towards energy.</p><p>Esyasoft’s automated energy audit software enables faster audit requiring minimum or available information to be captured. Analysis is faster and reduces time with option for customisation.</p><p>With a database of existing buildings, benchmarking and audit analysis turnaround time is significantly reduced leading to cost savings for carrying out energy audits.</p><p>Esyasoft technical experts provide with various cost saving and energy investment options leading to quicker decision making process and targeted reduction in carbon footprint and saving in energy bill.</p></article>
 	</div>
       </div>
       <br>
@@ -533,7 +549,7 @@
 	  <img src="assets/images/preview/content/portfolio/p1.jpg" class="img-responsive" alt="img" />
 	</div>
 	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-8">
-	  <p>Esyasoft provides billing and consumer energy analytic services which are aimed at providing utilities with targeted demand management solutions to meet energy efficiency goals and help consumers to analyse their energy consumption patterns and provide insights to reduce their energy bills.</p><p>Energy bill data is provided by utility or can be updated by the consumer. Powerful algorithms and data analysis models analyse the data to develop meaningful information which helps the utilities in managing demand and peak-load.</p><p>Our services enable consumers to view their energy consumption patterns and make informed choices on energy consumption. With the use of technology and user-friendly interface our analytical services enable consumers to analyse their energy consumption data and empower them to be able to make informed choices.</p>
+	  <article><p>Esyasoft provides billing and consumer energy analytic services which are aimed at providing utilities with targeted demand management solutions to meet energy efficiency goals and help consumers to analyse their energy consumption patterns and provide insights to reduce their energy bills.</p><p>Energy bill data is provided by utility or can be updated by the consumer. Powerful algorithms and data analysis models analyse the data to develop meaningful information which helps the utilities in managing demand and peak-load.</p><p>Our services enable consumers to view their energy consumption patterns and make informed choices on energy consumption. With the use of technology and user-friendly interface our analytical services enable consumers to analyse their energy consumption data and empower them to be able to make informed choices.</p></article>
 	</div>
       </div>
       <br>
@@ -568,19 +584,19 @@
 
 	<li>
 	  <a href="#service-1" class="service yellow scrollTo">
-	    <i class="fa fa-code"></i>
+	    <i class="fa fa-bar-chart-o"></i>
 	    <h3>Analytics</h3>
 	  </a>
 	</li>
 	<li>
 	  <a href="#service-1" class="service yellow scrollTo">
-	    <i class="fa fa-code"></i>
+	    <i class="fa fa-database"></i>
 	    <h3>Datacentre design and deployment</h3>
 	  </a>
 	</li>
 	<li>
 	  <a href="#service-1" class="service yellow scrollTo">
-	    <i class="fa fa-code"></i>
+	    <i class="fa fa-cogs"></i>
 	    <h3>Integration services</h3>
 	  </a>
 	</li>
@@ -604,20 +620,17 @@
     </header>
     <div class="divider"></div>
     <p class="text-center">
-      <a href="www.facebook.com" class="social fa fa-facebook"></a>
-      <a href="www.twitter.com" class="social fa fa-twitter"></a>
-      <a href="plus.google.com" class="social fa fa-google-plus"></a>
     </p>
     
     <article>
       <p class="text-center big-paragraph">
 	<div class="col-md-6 text-left">
-	  # 63/1, I Floor, Above Canara Bank, Railway Parallel Road, Kumara Park West, Bangalore - 560 020, India
+	  # 135, 3rd Floor, Infantry road, Opp. The Hindu Office, Bangalore - 560 001, India
 	</div>
 	<div class="col-md-6 text-right">
-	  +91 80 41506054/5/6
+	  +91 98866 45937
 	  <br>
-	  hello@crowlventures.com
+	  info@esyasoft.com
 	</div>
       </p>
     </article>
@@ -626,7 +639,7 @@
 
   <br><br>
 
-  <iframe width="100%" height="400px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.692077788908!2d77.57980199999999!3d12.99153600000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae163e7b598b53%3A0x7e5b2a2378636db9!2sNSVM+%26+Associates+Chartered+Accountants!5e0!3m2!1sen!2sin!4v1403864754773"></iframe>
+
 
 </section>
 
