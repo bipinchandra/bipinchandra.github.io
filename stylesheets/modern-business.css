@@ -157,3 +157,7 @@ footer {
 .dropdown-menu li {
     font-size: 16px;
 }
+
+.text-yellow {
+    color: #f1c40f;
+}
